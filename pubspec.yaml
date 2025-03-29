@@ -1,0 +1,69 @@
+name: todosquared
+description: "A new Flutter project."
+
+# Prevent accidental publishing to pub.dev.
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.4
+
+dependencies:
+  animated_text_kit: ^4.2.2
+  auto_size_text: ^3.0.0
+  dashboard: ^0.0.4
+  flutter:
+    sdk: flutter
+  flutter_colorpicker: ^1.1.0
+  flutter_hooks: ^0.20.5
+  flutter_launcher_icons: ^0.14.1
+  flutter_local_notifications: ^18.0.1
+  flutter_localizations:
+    sdk: flutter
+  flutter_randomcolor: ^1.0.16
+  flutter_staggered_animations: ^1.1.1
+  flutter_timezone: ^4.0.0
+  google_fonts: ^6.2.1
+  hooks_riverpod: ^2.6.1
+  neon_circular_timer: ^0.0.8
+  provider: ^6.1.2
+  settings_ui: ^2.0.2
+  shared_preferences: ^2.3.3
+  smooth_page_indicator: ^1.2.0+3
+  timezone: ^0.10.0
+  window_size: ^0.1.0
+
+dev_dependencies:
+  flutter_lints: ^4.0.0
+  flutter_test:
+    sdk: flutter
+
+flutter_launcher_icons:
+  image_path_android: "assets/images/logotodosquared.png"
+  image_path_ios: "assets/images/logotodosquared.png"
+  android: true # can specify file name here e.g. "ic_launcher"
+  ios: true # can specify file name here e.g. "My-Launcher-Icon"
+  min_sdk_android: 24 # android min sdk min:16, default 21
+  adaptive_icon_background: "#ffffff" # You can use a color or image for the background
+  adaptive_icon_foreground: "assets/images/logotodosquared.png"
+  remove_alpha_ios: true
+  windows:
+    generate: true
+    image_path: "assets/images/logotodosquared.png"
+    icon_size: 48 # min:48, max:256, default: 48
+  macos:
+    generate: true
+    image_path: "assets/images/logotodosquared.png"
+
+flutter:
+  uses-material-design: true
+
+  # Enable generation of localized Strings from arb files.
+  generate: true
+
+  assets:
+    - assets/images/tutorial1.png
+    - assets/images/tutorial2.png
+    - assets/images/tutorial3.png
+    - assets/images/logotodosquared.png
